@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.miwok.NumbersActivity">
+
+    <TextView
+        android:id="@+id/English_Name"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Ek"/>
+
+    <TextView
+        android:id="@+id/Hindi_Name"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="One"/>
+
+    </LinearLayout>
